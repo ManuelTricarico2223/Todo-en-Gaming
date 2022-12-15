@@ -1,12 +1,11 @@
 import React from "react";
 import CartWidget from "./CartWidget";
-import Productos from "./Productos";
 
     const NavBar = () => {
          return (
     <div>
         <div className="container">
-      <div className="row">
+      <div className="row" >
        <div className="col-md-12">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
@@ -17,13 +16,13 @@ import Productos from "./Productos";
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="/inicio">Inicio</a>
+                  <a className="nav-link" aria-current="page" href="/notebook">Notbook</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/productos">Productos</a>
+                  <a className="nav-link" href="/monitores">Monitores</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/contacto">Contacto</a>
+                  <a className="nav-link" href="/tablet">Tablet</a>
                 </li>
                 </ul>
                 <div className="col-md-6 d-flex justify-content-end align-items-center" >

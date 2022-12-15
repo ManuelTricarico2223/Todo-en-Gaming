@@ -7,6 +7,7 @@
 body {
   background-image: url(../public/img/fondo.png);
   background-position: center;
+  display: flex;
 }
 
  .nav-item{
@@ -14,7 +15,7 @@ body {
   font-weight: bolder;
 }
 .nav-link{
-  color: aliceblue;
+  color: #f0f8ff;
   margin-left: 50px;
 }
 
@@ -28,10 +29,14 @@ margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   margin-top: 200px;
+  
 }
-.Accesorios .card{
-  padding: 50px;
-  margin: 20px;
+.card{
+  padding: 20px;
+  margin-left: 130px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
 }
 .precio1 , .precio2{
   font-size: 20px;

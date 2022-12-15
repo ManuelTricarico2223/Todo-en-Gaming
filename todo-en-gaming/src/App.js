@@ -1,16 +1,22 @@
 import React from "react"
 import Footer from "./components/Footer"
-import Productos from "./components/Productos"
 import NavBar from "./components/NavBar"
+import ItemListContainer from './components/ItemListContainer'
+import ItemList from "./components/ItemList"
+import Mapeo from "./components/Mapeo"
+import Item from "./components/Item"
 
 function App() {
   return (
-    <div>
+    <div className="Container">
       <NavBar/>
-      <Productos/>
+      <ItemListContainer/>
+      <Mapeo/>
+      <Item/>
+      <ItemList/>
       <Footer/>
    </div>
   )
 }
 
-export default App
+export default App;
